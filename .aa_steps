@@ -1,0 +1,5 @@
+Installation:
+composer create-project laravel/laravel spa
+composer require inertiajs/inertia-laravel
+rename welcome.blade.php to app.blade.php
+php artisan inertia:middleware
